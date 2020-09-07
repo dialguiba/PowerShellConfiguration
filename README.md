@@ -1,0 +1,2 @@
+# PowerSheelConfig
+My powershell configuration
