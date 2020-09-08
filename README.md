@@ -19,7 +19,7 @@ My powershell configuration
 
 - **Install OhMyZsh for windows (OhMyPosh)**
 
-  You need to use the PowerShell Gallery to install oh-my-posh. (Refered: https://github.com/JanDeDobbeleer/oh-my-posh)
+  You need to use the PowerShell Gallery to install oh-my-posh. (Refered: https://github.com/JanDeDobbeleer/oh-my-posh) You can see the themes available there. But take into account that some themes dont have the same names that appear in the repository.
 
   Install posh-git and oh-my-posh:
 
