@@ -7,17 +7,27 @@ My powershell configuration
   At the end of this guide your terminal will be like this.
   ![preview](./images/preview.jpg)
 
-  - **Install Windows Terminal (Optional)**
+- **Index**
+
+1. Installing Windows Terminal (Optional)
+1. Installing/Updating Powershell
+1. Installing OhMyZsh for Windows (OhMyPosh)
+1. Installing and Configuring Fonts
+1. Enabling "Sudo" Command
+1. Installing module for icons
+1. [Some color personalization for Readline](#Some-color-personalization-for-Readline)
+
+- **#Install Windows Terminal (Optional)**
 
   First of all, I recommend you install Windows terminal that could will allow you personalize your terminal even more. You can download it from the microsoft store.
   [https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab](Windows Terminal)
 
-- **Install/Update Powershell (This is not strictly necessary but i recommend you install it if you can so you wouldnt have problems with any step)**
+- **#Installing/Updating Powershell (This is not strictly necessary but i recommend you install it if you can so you wouldnt have problems with any step)**
 
   Install the last version of powershell. You can download it from here. Remember that this version is going to replace the powershell 6 if you have installed it. (Does not affect powershell version 5)
   [https://github.com/PowerShell/PowerShell/releases](Download Powershell)
 
-- **Install OhMyZsh for windows (OhMyPosh)**
+- **Installing OhMyZsh for windows (OhMyPosh)**
 
   You need to use the PowerShell Gallery to install oh-my-posh. (Refered: https://github.com/JanDeDobbeleer/oh-my-posh) You can see the themes available there. But take into account that some themes dont have the same names that appear in the repository.
 
@@ -93,7 +103,7 @@ My powershell configuration
   `notepad $profile`
   Set-Theme NameOfTheme
 
-- **Install Fonts**
+- **Installing Fonts**
 
   If you dont install the fonts you probably will see something like this:
 
@@ -128,7 +138,7 @@ My powershell configuration
 
   `"terminal.integrated.fontFamily": "MesloLGS NF"`
 
-- **Sudo Command** (Optional)
+- **Enabling Sudo Command** (Optional)
 
   Also if you want to have the sudo command like in linux you should download an executable and save it in a folder in your pc and then add that folder in your environment variables path. (You can save that file in c:/Windows folder too. Taking advantage that it is in the environmental variable path) Well, this is optional, you always can change properties of powershell to force it open as administrador always. But, this would be necessary for you if you want to execute something as administrator in ps6 when you are coding in vscode. (You can solve that just open it as administrator too. haha.)
 
@@ -187,7 +197,7 @@ function lsformatlist {
 
 _**Now you can use l,ls,lsl to get different views of your files. Also if you want to see hidden files you can use -la after ls**_
 
-- **Some color personalization for Readline**
+- **#Some color personalization for Readline**
 
 I have additional configuration for colorising the readline words adding these lines in my profile.ps1
 
