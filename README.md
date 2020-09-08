@@ -1,13 +1,11 @@
-# PowerShell Configuration
+# My powershell configuration
 
-My powershell configuration
+# **Preview**
 
-- **Preview**
+At the end of this guide your terminal will be like this.
+![preview](./images/preview.jpg)
 
-  At the end of this guide your terminal will be like this.
-  ![preview](./images/preview.jpg)
-
-- **Index**
+# **Index**
 
 1. [Installing Windows Terminal (Optional)](#Installing-Windows-Terminal)
 1. [Installing/Updating Powershell](#Installing/Updating-Powershell)
