@@ -9,15 +9,15 @@ My powershell configuration
 
 - **Index**
 
-1. [Installing Windows Terminal (Optional)](<#Installing-Windows-Terminal-(Optional)>)
+1. [Installing Windows Terminal (Optional)](#Installing-Windows-Terminal)
 1. [Installing/Updating Powershell](#Installing/Updating-Powershell)
-1. [Installing OhMyZsh for Windows (OhMyPosh)](<#Installing-OhMyZsh-for-Windows-(OhMyPosh)>)
+1. [Installing OhMyZsh for Windows OhMyPosh](#Installing-OhMyZsh-for-Windows-OhMyPosh)
 1. [Installing and Configuring Fonts](#Installing-and-Configuring-Fonts)
 1. [Enabling "Sudo" Command](#Enabling-"Sudo"-Command)
 1. [Installing module for icons](#Installing-module-for-icons)
 1. [Some color personalization for Readline](#Some-color-personalization-for-Readline)
 
-# **#Install Windows Terminal (Optional)**
+# **#Install Windows Terminal**
 
 First of all, I recommend you install Windows terminal that could will allow you personalize your terminal even more. You can download it from the microsoft store.
 [https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab](Windows Terminal)
@@ -27,7 +27,7 @@ First of all, I recommend you install Windows terminal that could will allow you
 Install the last version of powershell. You can download it from here. Remember that this version is going to replace the powershell 6 if you have installed it. (Does not affect powershell version 5)
 [https://github.com/PowerShell/PowerShell/releases](Download Powershell)
 
-# **Installing OhMyZsh for windows (OhMyPosh)**
+# **Installing OhMyZsh for windows OhMyPosh**
 
 You need to use the PowerShell Gallery to install oh-my-posh. (Refered: https://github.com/JanDeDobbeleer/oh-my-posh) You can see the themes available there. But take into account that some themes dont have the same names that appear in the repository.
 
