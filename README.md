@@ -7,15 +7,15 @@ My powershell configuration
   At the end of this guide your terminal will be like this.
   ![preview](./images/preview.jpg)
 
-- **Install/Update Powershell**
+  - **Install Windows Terminal (Optional)**
 
-  First of all, I recommend you install the last version of powershell. You can download it from here. Remember that this version is going to replace the powershell 6 if you have installed it. (Does not affect powershell version 5)
-  [https://github.com/PowerShell/PowerShell/releases](Download Powershell)
-
-- **Install Windows Terminal (Optional)**
-
-  If you want to personalize your terminal even more you can install Windows Terminal. You can download it from the microsoft store.
+  First of all, I recommend you install Windows terminal that could will allow you personalize your terminal even more. You can download it from the microsoft store.
   [https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab](Windows Terminal)
+
+- **Install/Update Powershell (This is not strictly necessary but i recommend you install it if you can so you wouldnt have problems with any step)**
+
+  Install the last version of powershell. You can download it from here. Remember that this version is going to replace the powershell 6 if you have installed it. (Does not affect powershell version 5)
+  [https://github.com/PowerShell/PowerShell/releases](Download Powershell)
 
 - **Install OhMyZsh for windows (OhMyPosh)**
 
