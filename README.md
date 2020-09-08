@@ -197,14 +197,14 @@ function lsformatlist {
 
 _**Now you can use l,ls,lsl to get different views of your files. Also if you want to see hidden files you can use -la after ls**_
 
-- **#Some color personalization for Readline**
-
-I have additional configuration for colorising the readline words adding these lines in my profile.ps1
+- **Some color personalization for Readline**
+  #Some color personalization for Readline
+  I have additional configuration for colorising the readline words adding these lines in my profile.ps1
 
 ```
 Set-PSReadLineOption -Colors @{
     Command            = 'Magenta'
-    Number             = 'DarkGray'
+    Number        as     = 'DarkGray'
     Member             = 'DarkGray'
     Operator           = 'DarkMagenta'
     Type               = 'DarkCyan'
