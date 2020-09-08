@@ -112,8 +112,74 @@ My powershell configuration
 
   [Sudo command](./sudo.rar)
 
-- **Installing module for icons**
+- **Installing module for icons** (Referred: https://github.com/devblackops/Terminal-Icons)
+
+To install the module from the PowerShell Gallery:
+
+`Install-Module -Name Terminal-Icons -Repository PSGallery`
+
+To use it modify your profile file adding this line:
+
+`Import-Module -Name Terminal-Icons`
+
+_Note: Take into account that this module can make it take a bit longer to start powershell._
+
+You can see your file with icons using:
+
+```
+Get-ChildItem | Format-List
+
+Get-ChildItem | Format-Wide
+
+Get-ChildItem | Format-Wide -Column 3
+
+```
+
+**_Aditionally, if you want to use ls and la commands in powershell so you can see your files with icons easily you could add these lines in your profile file_**
+
+```
+#ALIAS
+
+Set-Alias -Name l -value Get-ChildItem
+Set-Alias -Name ls -value lsformatwide
+Set-Alias -Name lsl -value lsformatlist
+
+#FUNCIONES
+
+function lsformatwide {
+    Param(
+        [switch]$la
+    )
+
+    if ($la) {
+        Get-ChildItem $Args[0]. -Force  | Format-Wide -Column 3
+    }
+    else {
+        Get-ChildItem $Args[0] | Format-Wide -Column 3
+    }
+}
+function lsformatlist {
+    Get-ChildItem | Format-List
+}
+```
+
+_**Now you can use l,ls,lsl to get different views of your files. Also if you want to see hidden files you can use -la after ls**_
 
 - **Some color personalization for Readline**
 
-- **If you want you can use my theme**
+I have additional configuration for colorising the readline words adding these lines in my profile.ps1
+
+```
+Set-PSReadLineOption -Colors @{
+    Command            = 'Magenta'
+    Number             = 'DarkGray'
+    Member             = 'DarkGray'
+    Operator           = 'DarkMagenta'
+    Type               = 'DarkCyan'
+    Variable           = 'Green'
+    Parameter          = 'DarkGreen'
+    ContinuationPrompt = 'DarkGray'
+}
+```
+
+- **If you want to use my theme that i have edited i am gonna to upload it soon after some modifications so you can easily change colors**
