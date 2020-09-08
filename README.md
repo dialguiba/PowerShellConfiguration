@@ -106,6 +106,28 @@ My powershell configuration
 
   [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)
 
+  Now, to set the fonts in terminal:
+
+  ![configterminalfonts](./images/fontscommandterminal.jpg)
+
+  in that configuration file oyu have to add configuration for you default profile or specifically for your powershell 7
+
+  ![configscommand](./images/configscommand.jpg)
+
+  Also, If you have want to use that version of powershell and set that font in vscode to use it in the terminal you could do this.
+
+  - Pwshell as default shell
+
+  ![defaultshell1](./images/defaultshell1.jpg)
+
+  Select the version 7 of powershell
+
+  ![defaultshell2](./images/defaultshell2.jpg)
+
+  - add this lines in settings.json
+
+  `"terminal.integrated.fontFamily": "MesloLGS NF"`
+
 - **Sudo Command** (Optional)
 
   Also if you want to have the sudo command like in linux you should download an executable and save it in a folder in your pc and then add that folder in your environment variables path. (You can save that file in c:/Windows folder too. Taking advantage that it is in the environmental variable path) Well, this is optional, you always can change properties of powershell to force it open as administrador always. But, this would be necessary for you if you want to execute something as administrator in ps6 when you are coding in vscode. (You can solve that just open it as administrator too. haha.)
