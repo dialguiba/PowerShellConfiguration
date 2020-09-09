@@ -8,7 +8,7 @@ At the end of this guide your terminal will be like this.
 # **Index**
 
 1. [Installing Windows Terminal](#Installing-Windows-Terminal) (Optional)
-1. [Installing/Updating Powershell](#Installing/Updating-Powershell)
+1. [Installing or Updating Powershell](#Installing-or-Updating-Powershell)
 1. [Installing OhMyZsh for Windows OhMyPosh](#Installing-OhMyZsh-for-Windows-OhMyPosh)
 1. [Installing and Configuring Fonts](#Installing-and-Configuring-Fonts)
 1. [Enabling "Sudo" Command](#Enabling-"Sudo"-Command)
@@ -21,7 +21,7 @@ First of all, I recommend you install Windows terminal that could will allow you
 
 [Download Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab)
 
-# **Installing/Updating Powershell**
+# **Installing or Updating Powershell**
 
 (This is not strictly necessary but i recommend you install it if you can so you wouldnt have problems with any step)</br>
 Install the last version of powershell. You can download it from here. Remember that this version is going to replace the powershell 6 if you have installed it. (Does not affect powershell version 5)
