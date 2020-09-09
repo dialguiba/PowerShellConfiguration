@@ -8,14 +8,14 @@ At the end of this guide your terminal will be like this.
 # **Index**
 
 1. [Installing Windows Terminal](#Installing-Windows-Terminal) (Optional)
-1. [Installing-Updating Powershell](#Installing/Updating-Powershell)
+1. [Installing/Updating Powershell](#Installing/Updating-Powershell)
 1. [Installing OhMyZsh for Windows OhMyPosh](#Installing-OhMyZsh-for-Windows-OhMyPosh)
 1. [Installing and Configuring Fonts](#Installing-and-Configuring-Fonts)
 1. [Enabling "Sudo" Command](#Enabling-"Sudo"-Command)
 1. [Installing module for icons](#Installing-module-for-icons)
 1. [Some color personalization for Readline](#Some-color-personalization-for-Readline)
 
-# **Install Windows Terminal**
+# **Installing Windows Terminal**
 
 First of all, I recommend you install Windows terminal that could will allow you personalize your terminal even more. You can download it from the microsoft store.
 
