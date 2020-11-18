@@ -218,4 +218,4 @@ Set-PSReadLineOption -Colors @{
 }
 ```
 
-- **If you want to use my theme that i have edited i am gonna to upload it soon after some modifications so you can easily change colors**
+- **If you want to use the theme with the modifications i did you can download it from here: https://github.com/dialguiba/PowerShellConfiguration/blob/master/Powerlevel10k-Classic-Dialguiba.psm1 **
